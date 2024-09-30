@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<br>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Delicious Eats</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <br id="home" class="home-section">
+        <h1>Welcome to Delicious Eats</h1>
+       <p>Experience the best dining in town</p>
+        <button>Order Now</button>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Spaghetti Bolognese</h3>
+                <p>Rich and creamy spaghetti with beef sauce</p>
+                <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Classic pizza with mozzarella and basil</p>
+                <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Caesar Salad</h3>
+                <p>Fresh lettuce, croutons, and Caesar dressing</p>
+                <span>$8.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation-section">
+        <h2>Reserve a Table</h2>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Reserve Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Delicious Eats. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
